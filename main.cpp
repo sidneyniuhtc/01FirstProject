@@ -6,8 +6,8 @@ int Add(int x, int y)
 }
 
 TEST(TestAdd, NormalInputs) {
-	EXPECT_EQ(1, Add(0, 1));
-	EXPECT_EQ(5, Add(2, 3));
+	EXPECT_EQ(Add(0, 1), 1);
+	EXPECT_EQ(Add(2, 3), 5);
 }
 
 int main(int argc, char **argv) {
